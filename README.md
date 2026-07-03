@@ -2,7 +2,7 @@
 
 Personal resume site, built with plain HTML/CSS and deployed via GitHub Pages.
 
-**Live site:** _add your GitHub Pages URL here once deployed, e.g. https://<your-username>.github.io/resume/_
+**Live site:** https://hasanraza753509.github.io/Resume/
 
 ## About
 
@@ -13,29 +13,3 @@ B.Tech student in Artificial Intelligence & Machine Learning at Delhi Technologi
 - `index.html` — the resume page
 - `hasan-photo.jpg` — profile photo
 
-Both files must stay in the same folder for the photo to load correctly.
-
-## Deploying
-
-```bash
-git init
-git add index.html hasan-photo.jpg README.md
-git commit -m "Add resume site"
-git branch -M main
-git remote add origin https://github.com/<your-username>/resume.git
-git push -u origin main
-```
-
-Then in the repo: **Settings → Pages → Source → Deploy from branch → main → /(root) → Save**
-
-## Updating
-
-Edit `index.html` directly, then:
-
-```bash
-git add .
-git commit -m "Update resume"
-git push
-```
-
-GitHub Pages redeploys automatically on every push to `main`.
