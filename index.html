@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hasan Raza — Resume</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #000;
+      background: #fff;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 40px 50px;
+      line-height: 1.4;
+      font-size: 14px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 22px;
+      margin-bottom: 10px;
+    }
+
+    .photo-slot {
+      flex: 0 0 auto;
+      width: 96px;
+      height: 96px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .photo-slot img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .header-text {
+      flex: 1;
+      text-align: left;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .contact {
+      font-size: 13px;
+      margin-top: 4px;
+    }
+
+    .contact a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      font-size: 14px;
+      font-weight: bold;
+      text-transform: uppercase;
+      border-bottom: 1.5px solid #000;
+      margin-top: 18px;
+      margin-bottom: 8px;
+      padding-bottom: 2px;
+      letter-spacing: 0.5px;
+    }
+
+    .entry {
+      margin-bottom: 10px;
+    }
+
+    .entry .title-line {
+      display: flex;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+
+    .entry .sub-line {
+      display: flex;
+      justify-content: space-between;
+      font-style: italic;
+      font-size: 13.5px;
+      margin-bottom: 3px;
+    }
+
+    .entry ul {
+      margin: 4px 0 0 20px;
+    }
+
+    .entry ul li {
+      margin-bottom: 3px;
+    }
+
+    p.plain {
+      margin-bottom: 6px;
+    }
+
+    .skills-line {
+      margin-bottom: 4px;
+    }
+
+    .skills-line b {
+      font-weight: bold;
+    }
+
+    @media print {
+      body {
+        padding: 20px 40px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <div class="photo-slot"><img src="hasan-photo.jpg" alt="Hasan Raza"></div>
+    <div class="header-text">
+      <h1>Hasan Raza</h1>
+      <div class="contact">
+        <a href="mailto:hasanraza1112211@gmail.com">hasanraza1112211@gmail.com</a> | +91 75350 97867 | New Delhi, India
+        | LinkedIn | GitHub
+      </div>
+    </div>
+  </div>
+
+  <h2>Education</h2>
+  <div class="entry">
+    <div class="title-line">
+      <span>Delhi Technological University | New Delhi, India</span>
+      <span>2025 – 2029 | CGPA: 8.6</span>
+    </div>
+    <div class="sub-line">
+      <span>Bachelor of Technology | Computer Science Engineering</span>
+      <span></span>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title-line">
+      <span>Senior Secondary (Class XII) | ICSE Board</span>
+      <span>95.6%</span>
+    </div>
+  </div>
+  <div class="entry">
+    <div class="title-line">
+      <span>Secondary (Class X) | CBSE Board</span>
+      <span>92.4%</span>
+    </div>
+  </div>
+
+  <h2>Technical Skills</h2>
+  <p class="skills-line"><b>Languages:</b> Python, C++, JavaScript, HTML5, CSS3</p>
+  <p class="skills-line"><b>AI / ML:</b> Machine Learning, NumPy, Pandas, Scikit-learn, Deep Learning</p>
+  <p class="skills-line"><b>Web &amp; Frameworks:</b> React.js, Node.js, Express.js, REST APIs, Git &amp; GitHub</p>
+  <p class="skills-line"><b>Core CS:</b> DSA, OOP, DBMS (Basic), Problem Solving</p>
+
+  <h2>Work Experience</h2>
+
+  <ul>
+    <li>
+
+      <div class="entry">
+        <div class="title-line">
+          <span>AI/ML Engineer </span>
+
+        </div>
+
+
+        <p class="plain">IBM-certified in Machine Learning with Python; actively contributing to ML research and
+          real-world AI
+          projects.</p>
+    </li>
+    <li>
+
+      <div class="entry">
+        <div class="title-line">
+          <span>Data Struncture & Algorithm </span>
+
+        </div>
+
+        <p class="plain">Over the past few months, I've been consistently building my problem-solving foundation in
+          Data
+          Structures and Algorithms, recently crossing the milestone of 100 solved problems on LeetCode. Working
+          through
+          arrays, strings, trees, graphs, dynamic programming, and more, I've focused on building both pattern
+          recognition
+          and
+          clean implementation habits — treating each problem as an opportunity to sharpen my approach to algorithmic
+          thinking
+          rather than just clearing a count. This consistency has directly strengthened my readiness for competitive
+          programming, technical interviews, and the kind of systems-level thinking I bring to my AI/ML and
+          cybersecurity
+          projects.</p>
+
+    </li>
+
+
+    <h2>Industry Projects</h2>
+
+    <div class="entry">
+      <div class="title-line">
+        <span>Bill Splitter</span>
+        <span></span>
+      </div>
+      <div class="sub-line"><span>HTML · CSS · JavaScript</span><span></span></div>
+      <ul>
+        <li>Built a web app to split bills among groups and settle individual debts, implementing real-time
+          calculation
+          logic to distribute expenses fairly across any number of participants.</li>
+        <li>Designed a debt-simplification algorithm that consolidates multi-way owed amounts into the minimum number
+          of
+          settlement transactions, reducing back-and-forth between group members.</li>
+        <li>Generated a clear, itemised settlement summary for each participant so who-owes-whom is instantly readable
+          without manual reconciliation.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="title-line">
+        <span>Portfolio Website</span>
+        <span></span>
+      </div>
+      <div class="sub-line"><span>HTML · CSS · JavaScript</span><span></span></div>
+      <ul>
+        <li>Designed and built a responsive personal portfolio from scratch showcasing projects, skills, and
+          certifications, with a mobile-first layout that adapts cleanly across screen sizes.</li>
+        <li>Implemented smooth scroll animations and interactive UI transitions to create a polished, professional
+          first
+          impression for recruiters and collaborators.</li>
+        <li>Structured the codebase with reusable components and clean semantic HTML for easy long-term maintenance
+          and
+          fast load times.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="title-line">
+        <span>LLM Backdoor Audit — Mechanistic Interpretability Pipeline</span>
+        <span></span>
+      </div>
+      <div class="sub-line"><span>Python · PyTorch · Mechanistic Interpretability · PCA · K-Means ·
+          Gradio</span><span></span></div>
+      <ul>
+        <li>Built an interpretability auditing pipeline for CyberShield 2026 (hosted by Bank of India and IIT
+          Hyderabad)
+          to detect hidden backdoors and trojans planted inside LLMs, using GPT-2 small as the target model.</li>
+        <li>Used PyTorch forward hooks to capture internal layer-by-layer activations while feeding the model both
+          clean
+          and trigger-laced prompts, isolating where a backdoor's influence first surfaces in the network.</li>
+        <li>Applied PCA for dimensionality reduction and K-Means clustering to separate poisoned-trigger activation
+          patterns from normal ones, flagging anomalous clusters as evidence of a likely backdoor without requiring
+          access
+          to the original training data.</li>
+        <li>Packaged the full pipeline as an interactive Gradio demo, allowing a reviewer to input a prompt and see,
+          layer
+          by layer, whether the model's internal activations look anomalous.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="title-line">
+        <span>Automated AI Model Compression</span>
+        <span></span>
+      </div>
+      <div class="sub-line"><span>JavaScript · AI/ML · Model Optimization</span><span></span></div>
+      <ul>
+        <li>Built an automated pipeline to compress AI models via pruning and quantization, reducing inference size
+          and
+          latency without meaningful accuracy loss.</li>
+        <li>Made models deployment-ready for resource-constrained edge environments with configurable compression
+          thresholds, letting teams trade off size against accuracy per use case.</li>
+        <li>Benchmarked compressed models against their original counterparts to validate that accuracy degradation
+          stayed
+          within acceptable limits before shipping.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="title-line">
+        <span>Stock Portfolio Tracker</span>
+        <span></span>
+      </div>
+      <div class="sub-line"><span>JavaScript · REST APIs · HTML · CSS</span><span></span></div>
+      <ul>
+        <li>Built a real-time stock portfolio tracker fetching live market data via REST APIs, letting users add
+          holdings
+          and monitor current value at a glance.</li>
+        <li>Implemented per-stock gains/losses tracking and visualised overall portfolio performance through a
+          responsive,
+          easy-to-navigate dashboard.</li>
+      </ul>
+    </div>
+
+    <div class="entry">
+      <div class="title-line">
+        <span>AI Code Review Assistant</span>
+        <span></span>
+      </div>
+      <div class="sub-line"><span>JavaScript · GitHub API · GitLab API · AI Integration</span><span></span></div>
+      <ul>
+        <li>Built an AI-powered pull request review assistant integrating with GitHub and GitLab to analyse code diffs
+          in
+          real time.</li>
+        <li>Automatically posted actionable inline review comments catching bugs, security vulnerabilities, and code
+          quality issues, delivering instant, intelligent feedback directly within the PR interface.</li>
+        <li>Reduced manual review overhead by surfacing issues static linters typically miss, such as logic errors and
+          insecure API usage patterns.</li>
+      </ul>
+    </div>
+
+    <h2>Achievements and Awards</h2>
+    <ul style="margin-left:20px;">
+      <li><b>IBM Professional Certificate – Machine Learning with Python:</b> Completed rigorous certification
+        demonstrating hands-on expertise in supervised and unsupervised ML techniques.</li>
+      <li><b>Consistent Academic Excellence:</b> Top percentile in Class X (92.4%) and Class XII (95.6%) across CBSE
+        and
+        ICSE boards.</li>
+      <li><b>Competitive Programming:</b> Actively exploring open-source contributions and algorithmic problem
+        solving.
+      </li>
+    </ul>
+
+    <h2>Positions of Responsibility</h2>
+    <div class="entry">
+      <div class="title-line">
+        <span>Contributor, GSSOC 2026</span>
+        <span></span>
+      </div>
+    </div>
+
+    <h2>Certifications</h2>
+    <p class="plain">• IBM Professional Certificate: Machine Learning with Python Certificate</p>
+    <p class="plain">• Actively pursuing certifications in Deep Learning and Full-Stack Development</p>
+
+</body>
+
+</html>
